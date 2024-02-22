@@ -1443,7 +1443,7 @@ int main() {
    1096c:	e0bfe317 	ldw	r2,-116(fp)
    10970:	10800058 	cmpnei	r2,r2,1
    10974:	1000041e 	bne	r2,zero,10988 <main+0x3d8>
-        	alt_printf("Button 0");
+        	alt_printf("Button 0 ");
    10978:	01000074 	movhi	r4,1
    1097c:	2119fa04 	addi	r4,r4,26600
    10980:	0013fd00 	call	13fd0 <alt_printf>
@@ -1453,7 +1453,7 @@ int main() {
    10988:	e0bfe317 	ldw	r2,-116(fp)
    1098c:	10800098 	cmpnei	r2,r2,2
    10990:	1000041e 	bne	r2,zero,109a4 <main+0x3f4>
-        	alt_printf("Button 1");
+        	alt_printf("Button 1 ");
    10994:	01000074 	movhi	r4,1
    10998:	2119fd04 	addi	r4,r4,26612
    1099c:	0013fd00 	call	13fd0 <alt_printf>
@@ -1463,14 +1463,14 @@ int main() {
    109a4:	e0bfe317 	ldw	r2,-116(fp)
    109a8:	108000d8 	cmpnei	r2,r2,3
    109ac:	1000041e 	bne	r2,zero,109c0 <main+0x410>
-        	alt_printf("Button 0 & 1");
+        	alt_printf("Button 0 & 1 ");
    109b0:	01000074 	movhi	r4,1
    109b4:	211a0004 	addi	r4,r4,26624
    109b8:	0013fd00 	call	13fd0 <alt_printf>
    109bc:	00000306 	br	109cc <main+0x41c>
         }
         else{
-        	alt_printf("No Button");
+        	alt_printf("No Button ");
    109c0:	01000074 	movhi	r4,1
    109c4:	211a0404 	addi	r4,r4,26640
    109c8:	0013fd00 	call	13fd0 <alt_printf>
@@ -1481,7 +1481,7 @@ int main() {
    109d0:	01000074 	movhi	r4,1
    109d4:	211a0704 	addi	r4,r4,26652
    109d8:	0013fd00 	call	13fd0 <alt_printf>
-        alt_printf("drive: %x" , drive);
+        alt_printf("drive: %x " , drive);
    109dc:	e17fda17 	ldw	r5,-152(fp)
    109e0:	01000074 	movhi	r4,1
    109e4:	211a0b04 	addi	r4,r4,26668

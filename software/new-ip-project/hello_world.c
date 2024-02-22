@@ -141,20 +141,20 @@ int main() {
         }
 
         if(switch_datain == 0b01){
-        	alt_printf("Button 0");
+        	alt_printf("Button 0 ");
         }
         else if(switch_datain == 0b10){
-        	alt_printf("Button 1");
+        	alt_printf("Button 1 ");
         }
         else if(switch_datain == 0b11){
-        	alt_printf("Button 0 & 1");
+        	alt_printf("Button 0 & 1 ");
         }
         else{
-        	alt_printf("No Button");
+        	alt_printf("No Button ");
         }
 
         alt_printf("direction: %x ", direction);
-        alt_printf("drive: %x" , drive);
+        alt_printf("drive: %x " , drive);
         alt_printf("x-axis reading: %x ", avg_x);
         alt_printf("y-axis reading: %x\n", avg_y);
         convert_read(avg_x, & level, & led);
