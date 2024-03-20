@@ -1,0 +1,9 @@
+{
+    "userName": "bob",
+    "userPoolId": "us-east-1_xj6vJlG8F",
+    "request": {
+      "userAttributes": {
+        "email": "bob@gmail.com"
+      }
+    }
+}
