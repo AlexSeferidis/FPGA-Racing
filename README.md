@@ -12,6 +12,10 @@ Group 7's Information Processing Project - An FPGA Racing Game
 | Arjan Hayre            | 02137475 |
 | Alex Seferidis         | 02269571 |
 
+## Demo Video
+
+**Find the final demonstration video [here](https://youtu.be/EwAtyMyi2D0)** 
+
 ## Repo Organisation
 
 ### FPGA
