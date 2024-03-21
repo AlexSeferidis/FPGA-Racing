@@ -1,6 +1,6 @@
 # FPGA-Racing #
 
-Below details where our testing documentation and evidence can be found
+Below details where our testing documentation and evidence can be found.
 
 ---
 
@@ -21,8 +21,6 @@ The table below has all our FPGA testing videos:
 # Server #
 
 Our server side testing was done using **python scripts**. **These scripts and our raw data can be found [here](Server)**
-
-Below are graphs which measure the latency of our API calls / Lamda functions:
 
 ---
 
