@@ -18,13 +18,17 @@ The table below has all our FPGA testing videos:
 
 ---
 
-# AWS / Backend #
+# Server #
 
+Our server side testing was done using **python scripts**. **These scripts and our raw data can be found [here](Server)**
 
+Below are graphs which measure the latency of our API calls / Lamda functions:
 
 ---
 
 # Game # 
+
+Our game testing mostly involved play testing during real time development and at regular intervals with the whole team. This meant we could consistently give feedback and evaluate how our game was progressing.
 
 The table below has all our Game testing videos:
 

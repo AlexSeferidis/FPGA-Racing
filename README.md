@@ -15,3 +15,17 @@ Group 7's Information Processing Project - An FPGA Racing Game
 ## Repo Organisation
 
 
+## Project Planning
+
+As mentioned in the report we decided to use a Rapid Application Development (RAD) methodology to account for the short amount of time. We can see this manifested in the testing flow:
+
+![testflow](/Misc/Graphics/TestFlow.png)
+
+We also planned our project using a top down design, while prioritising potential features:
+
+![topdown](/Misc/Graphics/TopDownDesignPNG.png)
+
+Implementing essential features went as planned, with also also implementing some desired features too. See the project timeline below:
+
+![timeline](/Misc/Graphics/ProjectTimeline.png)
+
