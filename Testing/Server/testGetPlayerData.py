@@ -2,7 +2,7 @@ import requests
 import time
 
 def get_auth_token(username, password):
-    url = 'https://x3oc3nzf94.execute-api.us-east-1.amazonaws.com/test/login'  # Update with your login endpoint
+    url = 'https://x3oc3nzf94.execute-api.us-east-1.amazonaws.com/test/login'  
     data = {
         'username': username,
         'password': password
@@ -16,7 +16,7 @@ def get_auth_token(username, password):
 
 def test_latency_with_auth_token(url, headers, num_requests):
     latency_times = []
-    auth_token = get_auth_token('username', 'Password123!')  # Update with your username and password
+    auth_token = get_auth_token('username', 'Password123!') 
 
     if auth_token:
         headers['Authorization'] = f'Bearer {auth_token}'
