@@ -1,0 +1,1 @@
+This is the full game build, designed to be run on windows. To run the game, simply download the "windows" zip and extract all files, then run "FPGARacing.exe".
