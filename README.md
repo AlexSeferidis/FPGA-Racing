@@ -25,7 +25,7 @@ Group 7's Information Processing Project - An FPGA Racing Game
 [The Game folder](Game) contains a full zipped build of the FPGARacing game and it's Unreal engine Project, the build has been configured to run on version of windows 10 or higher. 
 
 ### Server
-[The Server folder](Server) contains all server configurations and scripts regarding the epic games api which is used for game login and multiplayer functionality such as game session creation, and real time updates of player position in game.
+[The Server folder](Server) contains all server configurations and scripts regarding the epic games and AWS api which is used for game login and multiplayer functionality such as game session creation, and real time updates of player position in game.
 
 ### Testing
 [The Testing folder](Testing) contains performance metrics and tests for various areas in this project such as the performance and latency of the FPGA controller, and server client latency during multiplayer matches in game.
